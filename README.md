@@ -1,16 +1,10 @@
 # key_roulette
 
-A new Flutter project.
+会議室の鍵を取りに行く人を決めるルーレットです。
 
-## Getting Started
+## 使い方
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+あらかじめ assets/list.csv に 学籍番号,名前 を用意しておきます(実際に使っているファイルは個人情報なので抜いてあります)。
+「抽選」ボタンを押すことで、ランダムに一人の名前が表示されます。
+「リセット」ボタンで表示を白紙に戻すことができます。
+それだけです。
